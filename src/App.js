@@ -29,6 +29,7 @@ export default App;
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
+import ImageComponent from './ImageComponent';
 
 function App() {
   return (
@@ -36,9 +37,15 @@ function App() {
       <Navbar />
       <div className="content">
         {/* Your main content goes here */}
+        {/* Other content */}
+        <ImageComponent />
+        {/* Other content */}
       </div>
     </div>
   );
 }
 
 export default App;
+
+
+
