@@ -1,0 +1,12 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #172C39; /* Set your desired background color */
+    background-image: url('./images/LeagueBackGround.jpg'); /* Replace 'path/to/background-image.jpg' with the actual path to your image */
+    background-size: contain; /* Scale the background image to fit within the container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+  }

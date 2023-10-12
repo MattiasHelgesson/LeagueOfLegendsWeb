@@ -1,8 +1,8 @@
 import React from 'react';
-import './ImageComponent.css';
-import League_of_Legends_logo_PNG1 from './images/League_of_Legends_logo_PNG1.png';
+import './Home.css';
+import League_of_Legends_logo_PNG1 from '../images/League_of_Legends_logo_PNG1.png';
 
-function ImageComponent() {
+function Home() {
   // Function to handle button click
   const redirectToLeagueOfLegendsSignUp = () => {
     window.location.href = 'https://signup.leagueoflegends.com/en-gb/signup/index#/';
@@ -16,4 +16,4 @@ function ImageComponent() {
   );
 }
 
-export default ImageComponent;
+export default Home;

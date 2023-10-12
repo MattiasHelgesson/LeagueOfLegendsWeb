@@ -1,0 +1,50 @@
+/* ImageComponent.css */
+
+.wrapper {
+    background-color: #172C39; /* Set your desired background color */
+    min-height: 100vh; /* Ensure the wrapper spans the entire viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #172C39; /* Set your desired background color */
+    background-image: url('../images/LeagueBackGround.jpg'); /* Replace 'path/to/background-image.jpg' with the actual path to your image */
+    background-size: contain; /* Scale the background image to fit within the container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+  }
+    
+    .center-image {
+      width: 450px; /* Adjust the width to your desired size */
+      height: 180px; /* Keep it square by setting the same height as width */
+      object-fit: cover; /* Maintain image aspect ratio */
+    }
+  
+    /* Style for the button */
+  /* ImageComponent.css */
+  
+  /* Style for the button */
+  .custom-button {
+    background-color: #0BC6E3; /* Change 'blue' to your desired color */
+    color: black; /* Change 'white' to your desired text color */
+    padding: 15px 30px; /* Adjust padding as needed */
+    border: none; /* Remove border if desired */
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  /* Change button color on hover */
+  .custom-button:hover {
+    background-color: #13D8F6; /* Change to your desired color on hover */
+  }
+  
+    
