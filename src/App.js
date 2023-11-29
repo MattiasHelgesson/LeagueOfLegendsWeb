@@ -42,7 +42,10 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-          <Routes> {/* Change from Switch to Routes */}
+          <Routes> {/* Set the Home component as the default route */}
+            <Route index element={<Home />} />
+
+            {/* Other routes */}
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/champions" element={<Champions />} />
