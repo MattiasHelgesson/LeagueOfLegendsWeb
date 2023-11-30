@@ -1,0 +1,25 @@
+.Esport {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-row {
+    display: flex;
+  }
+  
+  .top-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .bottom-row {
+    display: flex;
+  }
+  
+  .bottom-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  

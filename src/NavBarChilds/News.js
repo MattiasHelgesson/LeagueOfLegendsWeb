@@ -1,24 +1,27 @@
 import React from 'react';
-
-//function News(props) {
-
-//  return (
-//    <div>
-//      <h1>News Page</h1>
-//      <p>Hello,! Welcome to the News page.</p>
-//      {/* Other content */}
-//    </div>
-//  );
-//}
-
-//export default News;
+import './News.css';
 
 function News(props) {
-<div class="News">
-  <div class="column"></div>
-  <div class="column"></div>
-  <div class="column"></div>
-  <div class="column"></div>
-</div>
+  return (
+    <div className="News">
+      <div className="column">
+        <img src="image1.jpg" alt="Image 1" />
+        <p>Text for column 1</p>
+      </div>
+      <div className="column">
+        <img src="image2.jpg" alt="Image 2" />
+        <p>Text for column 2</p>
+      </div>
+      <div className="column">
+        <img src="image3.jpg" alt="Image 3" />
+        <p>Text for column 3</p>
+      </div>
+      <div className="column larger-column">
+        <img src="image4.jpg" alt="Image 4" />
+        <p>Text for larger column 4</p>
+      </div>
+    </div>
+  );
 }
+
 export default News;

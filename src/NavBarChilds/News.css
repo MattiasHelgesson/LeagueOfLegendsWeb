@@ -1,11 +1,16 @@
+.News {
+  display: flex;
+  background-color: #172C39; /* Background color outside columns */
+  padding: 10px; /* Adjust the padding to your preference */
+}
+
 .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after the columns */
-  .News:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #172C39; /* Background color inside columns */
+}
+
+.larger-column {
+  flex: 2;
+}
