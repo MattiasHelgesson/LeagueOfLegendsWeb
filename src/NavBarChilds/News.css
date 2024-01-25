@@ -1,23 +1,23 @@
 .News {
   display: flex;
-  background-color: #172C39; /* Background color outside columns */
-  padding: 10px; /* Adjust the padding to your preference */
+  background-color: #172C39;
+  padding: 10px; 
 }
 
 .column {
   flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
-  background-color: #172C39; /* Background color inside columns */
-  text-align: center; /* Center the content */
+  background-color: #172C39; 
+  text-align: center; 
 }
 
 .larger-column {
   flex: 2;
 }
 
-/* Add a class for the images to control their size */
+
 .column img {
-  max-width: 100%; /* Set a maximum width to ensure images don't exceed the column width */
-  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%; 
+  height: auto; 
 }

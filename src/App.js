@@ -29,7 +29,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import ImageComponent from './ImageComponent';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Note the change here
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import About from './NavBarChilds/About';
 import Champions from './NavBarChilds/Champions';
 import News from './NavBarChilds/News';
@@ -42,10 +42,10 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-          <Routes> {/* Set the Home component as the default route */}
+          <Routes> 
             <Route index element={<Home />} />
 
-            {/* Other routes */}
+            
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/champions" element={<Champions />} />
@@ -53,7 +53,7 @@ function App() {
             <Route path="/esport" element={<Esport />} />
           </Routes>
 
-          {/* Other content */}
+          
         </div>
       </div>
     </Router>

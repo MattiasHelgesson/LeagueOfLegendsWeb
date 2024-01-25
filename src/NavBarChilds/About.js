@@ -6,7 +6,6 @@ function About(props) {
     <div>
       <h1>About Page</h1>
       <p>Hello,! Welcome to the About page.</p>
-      {/* Other content */}
     </div>
   );
 }
