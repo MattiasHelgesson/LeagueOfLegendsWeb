@@ -1,0 +1,29 @@
+/* Navbar.css */
+.navbar {
+  background-color: #0D171F;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-image {
+  width: 40px; 
+  height: 40px; 
+}
+
+.selected {
+  color: yellow !important;
+}

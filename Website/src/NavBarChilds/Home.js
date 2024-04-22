@@ -3,7 +3,6 @@ import './Home.css';
 import League_of_Legends_logo_PNG1 from '../images/League_of_Legends_logo_PNG1.png';
 
 function Home() {
-  // Function to handle button click
   const redirectToLeagueOfLegendsSignUp = () => {
     window.location.href = 'https://signup.leagueoflegends.com/en-gb/signup/index#/';
   };

@@ -1,7 +1,9 @@
+/* Champions.css */
 .News {
   display: flex;
   background-color: #172C39;
   padding: 10px; 
+  color: white; 
 }
 
 .column {
@@ -10,12 +12,12 @@
   border: 1px solid #ccc;
   background-color: #172C39; 
   text-align: center; 
+  color: white; 
 }
 
 .larger-column {
   flex: 2;
 }
-
 
 .column img {
   max-width: 100%; 
