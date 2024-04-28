@@ -23,7 +23,7 @@ function Champions(props) {
           <div key={item._id} className="champion-box">
             {item.picture != null ? <img src={`http://localhost:2999/api/file/${item.picture}`} alt={item.name} /> : <></>}
             <p>{item.name}</p>
-            <p>{item.description}</p> {/* Here, assuming 'description' is the field that holds the character description */}
+            <p>{item.description}</p> {}
           </div>
         ))}
       </div>

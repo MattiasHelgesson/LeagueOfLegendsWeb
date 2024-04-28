@@ -1,7 +1,7 @@
 /* Champions.css */
 body {
-  background-color: #172C39; /* Blå bakgrund */
-  background-attachment: fixed; /* Förhindra bakgrunden från att rulla med sidan */
+  background-color: #172C39; 
+  background-attachment: fixed;
 }
 
 .champion-container {
@@ -9,22 +9,22 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center;
   }
   
 
 .champion-box {
   text-align: center;
-  background-color: #061C25; /* Mörkblå omkring texten */
-  padding: 10px; /* Lägger till lite utrymme runt texten */
-  border-radius: 5px; /* Avrunda hörnen för en finare utseende */
-  transition: background-color 0.3s ease; /* Gör övergången mjuk för bakgrundsfärgen */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtil skugga */
+  background-color: #061C25; 
+  padding: 10px; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .champion-box:hover {
-  background-color: #006680; /* Ljusblå bakgrundsfärg vid hover */
+  background-color: #006680; 
 }
 
 .champion-box img {
@@ -34,15 +34,13 @@ body {
   max-height: 200px;
 }
 
-/* Ändra färg på texten */
 .champion-box p {
-  color: white; /* Vit text */
-  font-size: 18px; /* Standard textstorlek */
-  font-weight: bold; /* Använd fetstil */
-  transition: font-size 0.3s ease; /* Gör övergången mjuk för textstorleken */
+  color: white; 
+  font-size: 18px; 
+  font-weight: bold;
+  transition: font-size 0.3s ease; 
 }
 
-/* Förstora texten vid hover */
 .champion-box:hover p {
-  font-size: 20px; /* Förstora textstorleken vid hover */
+  font-size: 20px;
 }
